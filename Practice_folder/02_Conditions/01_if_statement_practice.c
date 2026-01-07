@@ -295,3 +295,128 @@
 //     }
 //     return 0;
 // }
+
+//===========practice code 14===============//
+
+//=====stone_paper_scissor_game_practice_code========//
+
+// #include<stdio.h>
+// int main(){
+//     char user1 ,user2 ,user3;
+//     int stone , scissor , paper;
+//     printf("please type like this:\n's' for stone\n'p' for paper\n'c' for scissor\n");
+//     printf("please enter input for user1: ");
+//     scanf(" %c",&user1);
+//     printf("please enter input for user2: ");
+//     scanf(" %c",&user2);
+//     printf("please enter input for user3: ");
+//     scanf(" %c",&user3);
+//     stone = 0;
+//     paper = 0;
+//     scissor = 0;
+//     if(user1 == 's' || user2 == 's' || user3 == 's'){
+//         stone = 1;
+//     }
+//     if(user1 == 'p' || user2 == 'p' || user3 == 'p'){
+//         paper = 1;
+//     }
+//     if(user1 == 'c' || user2 == 'c' || user3 == 'c'){
+//         scissor = 1;
+//     }
+//     if(stone == 1 && paper == 1 && scissor != 1){
+//         printf("Paper wins\n");
+//         if(user1 == 'p'){
+//             printf("user1 has won!\n");
+//         }else{
+//             printf("user1 has lost!\n");
+//         }
+//         if(user2 == 'p'){
+//             printf("user2 has won!\n");
+//         }else{
+//             printf("user2 has lost!\n");
+//         }
+//         if(user3 == 'p'){
+//             printf("user3 has won!\n");
+//         }else{
+//             printf("user3 has lost!\n");
+//         }
+//     }else if(stone == 1 && paper != 1 && scissor == 1){
+//         printf("stone wins\n");
+//         if(user1 == 's'){
+//             printf("user1 has won!\n");
+//         }else {
+//            printf("user1 has lost!\n");
+//         }
+//         if(user2 == 's'){
+//             printf("user2 has won!\n");
+//         }else{
+//             printf("user2 has lost!\n");
+//         }
+//         if(user3 == 's'){
+//             printf("user3 has won!\n");
+//         }else{
+//             printf("user3 has lost!\n");
+//         }
+//     }else if(stone != 1 && paper == 1 && scissor == 1){
+//         printf("scissor wins\n");
+//         if(user1 == 'c'){
+//             printf("user1 has won!\n");
+//         }else{
+//             printf("user1 has lost!\n");
+//         }
+//         if(user2 == 'c'){
+//             printf("user2 has won!\n");
+//         }else{
+//             printf("user2 has lost!\n");
+//         }
+//         if(user3 == 'c'){
+//             printf("user3 has won!\n");
+//         }else{
+//             printf("user3 has lost!\n");
+//         }
+//     }else{
+//         printf("no one wins! DRAW!");
+//     }
+//     return 0;
+// }
+
+//===========practice code 15===============//
+
+// #include <stdio.h>
+// int main()
+// {
+//     float num1, num2, sum, subt, multi, div;
+//     char op;
+//     printf("please enter number 1: ");
+//     scanf("%f", &num1);
+//     printf("please enter number 2: ");
+//     scanf("%f", &num2);
+//     printf("'+' for addition.\n'-' for subtraction.\n'*' for multiplication.\n'/' for division. \n");
+//     printf("please enter the operation sign: \n");
+//     scanf(" %c", &op);
+//     sum = (num1) + (num2);
+//     subt = (num1) - (num2);
+//     multi = (num1) * (num2);
+//     div = (num1) / (num2);
+//     if (op == '+')
+//     {
+//         printf("the sum of the numbers is: %.2f\n", sum);
+//     }
+//     else if (op == '-')
+//     {
+//         printf("the subtraction of the numbers is: %.2f\n", subt);
+//     }
+//     else if (op == '*')
+//     {
+//         printf("multiplication of these numbers is: %.2f\n", multi);
+//     }
+//     else if (op == '/')
+//     {
+//         printf("division of these numbers is: %.2f\n", div);
+//     }
+//     else
+//     {
+//         printf("invalid input!\n please try again");
+//     }
+//     return 0;
+// }
