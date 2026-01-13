@@ -205,3 +205,64 @@
 //     return 0;
 // }
 
+// all star patterns in one code....
+
+// #include<stdio.h>
+// int main(){
+//     int i,j;
+//     char sp;
+//     sp = ' ';
+//     for(i=1;i<=4;i++){
+//         for(j=1;j<=i;j++){
+//             printf("*");
+//         }
+//         printf("\n");
+//     }
+//     printf("\n");
+//     for(i=4;i>=1;i--){
+//         for(j=1;j<=i;j++){
+//             printf("*");
+//         }
+//         printf("\n");
+//     }
+//     printf("\n");
+//     for(i=1;i<=4;i++){
+//         for(j=1;j<=4-i;j++){
+//             printf("%c",sp);
+//         }
+//         for(j=1;j<=i;j++){
+//             printf("*");
+//         }
+//         printf("\n");
+//     }
+//     printf("\n");
+//     for(i=4;i>=1;i--){
+//         for(j=1;j<=4-i;j++){
+//             printf("%c",sp);
+//         }
+//         for(j=4;j>=4-i+1;j--){
+//             printf("*");
+//         }
+//         printf("\n");
+//     }
+//     printf("\n");
+//     for(i=1;i<=4;i++){
+//         for(j=1;j<4-i+1;j++){
+//             printf("%c",sp);
+//         }
+//         for(j=1;j<=2*i-1;j++){
+//             printf("*");
+//         }
+//         printf("\n");
+//     }
+//     printf("\n");
+//     for(i=4;i>=1;i--){
+//         for(j=1;j<=4-i;j++){
+//             printf("%c",sp);
+//         }for(j=1;j<=2*i-1;j++){
+//             printf("*");
+//         }printf("\n");
+//     }
+//     return 0;
+// }
+
