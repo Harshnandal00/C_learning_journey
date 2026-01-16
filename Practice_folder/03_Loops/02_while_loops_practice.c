@@ -201,6 +201,7 @@
 //     int num,digit,small;
 //     printf("Please enter the number: ");
 //     scanf("%d",&num);
+//     small = 9;
 //     while(num != 0){
 //         digit = num%10;
 //         num = num/10;
@@ -305,14 +306,53 @@
 
 //decimal to binary...
 
+// #include<stdio.h>
+// int main(){
+//     int num,binary,rem,place;
+//     printf("please enter the number you want to convert to binary: ");
+//     scanf("%d",&num);
+//     binary = 0,place = 1;
+//     while(num!=0){
+//         rem = num%2;
+//         num = num/2;
+//         binary = binary + rem*place;
+//         place = place*10;
+//     }
+//     printf("the binary no. of input no. is: %d",binary);
+//     return 0;
+// }
 
+//sentinal loop , loop only stops at a given condition , like if input is -1....
 
+// #include<stdio.h>
+// int main(){
+//     int input, sum = 0;
+//     printf("Please enter an input (-1 to stop): ");
+//     scanf("%d", &input);
+//     while(input != -1){
+//         sum = sum + input;
+//         printf("Please enter an input (-1 to stop): ");
+//         scanf("%d", &input);
+//     }
+//     printf("The total sum of all the valid digits entered: %d", sum);
+//     return 0;
+// }
 
+//GCD of 2 numbers..
 
-
-
-
-
-
-
+// #include<stdio.h>
+// int main(){
+//     int num1,num2,num3;
+//     printf("Please enter the first number: ");
+//     scanf("%d",&num1);
+//     printf("Please enter the second number: ");
+//     scanf("%d",&num2);
+//     while(num2 != 0){
+//         num3 = num1%num2;
+//         num1 = num2;
+//         num2 = num3;
+//     }
+//     printf("the gcd of the number is %d\n",num1);
+//     return 0;
+// }
 
